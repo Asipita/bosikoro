@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#brand-logo {
+    font-size: 1rem;
+}
+
+.nav {
+    position: fixed important;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+}
+
+.nav-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+.nav a {
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 10rem 0rem 10rem;
+}
+
+.overlay div:last-child {
+    background-color: rgba(10, 10, 10, 0.65);
+    padding: 0;
+}
+
+.overlay div:last-child h4 {
+    background: orange;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.topic:hover {
+    /*background-color: rgba(0, 0, 0, 0.85)*/
+}
+
+.reader {
+    margin-left: 3rem;
+    font-style: normal;
+}
+
+
+/*.fore-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}*/
+
+header .fore-image {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/Verastic.jpg);
+    background-size: cover;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+    /*background-color: black;*/
+}
+
+#nameplate {
+    font-size: 3rem;
+}
+
+.topic {
+    margin: 1rem;
+    /*background-color: papayawhip;*/
+    font-family: Roboto
+}
+
+.topic h5 {
+    font-size: 1.1rem;
+}
+
+.topic h5:hover {
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.topic p {
+    font-size: .9rem;
+    font-style: italic
+}
+
+header form input {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: .9rem;
+    outline: none;
+    border: none !important;
+    padding-left: 1rem;
+    color: teal;
+    font-size: 1.3rem;
+    font-family: monospace;
+    margin-top: 2rem
+}
+
+section .header {
+    position: static;
+    min-height: 60vh;
+    width: 100vw;
+    background: whitesmoke;
+    z-index: 8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.big-container {
+    width: 90%;
+    margin: 2rem auto 0;
+}
+
+.header h1,
+{
+    font-weight: bold;
+    text-shadow: 3px 3px 10px grey;
+    font-size: 3rem;
+    /*border-top: 4px solid orange;*/
+}
+
+.card .card-title {
+    font-weight: 900;
+    color: orange !important;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.bolder-text {
+    font-weight: 800;
+}
+
+.boldest-text {
+    font-weight: 900;
+}
+
+.cards {
+    margin-bottom: 2rem;
+    height: rem;
+}
+
+.card-image {
+    position: relative;
+    height: 20rem;
+}
+
+.card-image img {
+    height: 100%;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.card-content {
+    font-weight: 1rem !important;
+}
+
+.cards .card:hover {
+    box-shadow: 1rem 1rem 2rem grey, -1rem 0rem 2rem grey;
+}
+
+section {
+    margin-bottom: 0;
+}
+
+footer {
+    position: relative;
+    margin: 0;
+    height: 50vh;
+    width: 100vw;
+    background-color: ghostwhite;
+    padding: 0;
+}
+
+.working-p {
+    padding: 1rem;
+    /*display: flex;*/
+}
+
+.how-it {
+    /*border-right: 3px solid teal;*/
+    border-top: 1px solid teal;
+}
+
+.working-p h1 {
+    font-size: 2rem !important;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.working-p li {
+    line-height: 1.3rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.divider {
+    margin-left: 1rem;
+    font-weight: 900 !important;
+}
+
+.working-p div:last-child {
+    border-top: 1px solid teal;
+    padding: 3rem;
+    /*align-self: top;*/
+}
+
+.copyright {
+    padding-top: 1rem;
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.copyright i {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    /*border-radius: 50%;*/
+    /*background-color: white;*/
+}
+
+footer .flow-text {
+    font-size: 1rem;
+}
+
+
+/*JOIN PAGE CSS*/
+
+#join-section {
+    padding: 5rem;
+}
+
+#join-section form {
+    /*border: 2px solid brown;*/
+    width: 65%;
+    margin: 4rem auto;
+    padding: 2rem;
+    min-height: 60vh;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+#join-body {
+    background-image: url(../images/black-college.jpg);
+    background-size: cover;
+}
+
+form {
+    color: white !important
+}
+
+.genders {
+    padding-top: 2rem !important;
+}
+
+
+/*#join-body footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0 !important;
+    height: 13vh;
+    width: 100vw;
+    background-color: ghostwhite;
+    padding: 0 !important;
+}*/
+
+
+/*#join-body .copyright {
+    padding: 0;
+    margin: 0;
+}*/
+
+
+/*PROJECTS PAGE*/
+
+#catalogue {
+    color: black;
+    border: 1px solid navajowhite;
+    padding-top: 5rem;
+}
+
+#catalogue h1 {
+    margin: 0;
+}
+
+#catalogue .categories,
+.topics {
+    min-height: 100vh;
+    /*color: floralwhite;*/
+    border-right: 1px solid black;
+    margin: 0;
+}
+
+#catalogue tbody tr td:first-child {
+    width: 14rem;
+    font-weight: bolder;
+}
+
+
+/*#catalogue tbody tr:nth-child(even) td:first-child {
+    background-color: #00a0a0 !important;
+    font-weight: bolder;
+}*/
+
+#catalogue tbody tr:nth-child(odd) {
+    background-color: rgba(0, 80, 80, 1) !important;
+}
+
+thead {
+    box-shadow: 2px 2px 3px darkslategrey, -2px -2px 3px darkslategrey !important;
+    /*position: fixed;*/
+    /*top: 10rem;*/
+    /*width: 80vw;*/
+}
+
+tbody tr td:first-child:hover {
+    font-size: 110%;
+    cursor: pointer;
+    color: black !important;
+    background-color: teal !important;
+}
+
+#catalogue tbody tr td:first-child {
+    font-weight: bolder;
+    color: white !important;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgba(0, 65, 65, .7) !important;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #00a0a0;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #009090;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+tr td:first-child>a {
+    color: white;
+}
+
+tr td:last-child>a {
+    color: ghostwhite;
+    padding: .4rem;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    /*border: 1px solid white;*/
+}
+
+#catalogue {
+    background: linear-gradient(top right, teal, orange)
+}
+
+select:active {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+element.style {
+    width: 406.328px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    opacity: 1;
+}
+
+.dropdown-content {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    z-index: 999;
+    will-change: width, height;
+}
+
+.dropdown-content li span {
+    color: white
+}
+
+.dropdown-content li:not(.disabled) span:hover {
+    background-color: teal;
+    /*color: teal !important*/
+}

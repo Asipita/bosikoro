@@ -1,0 +1,136 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box
+}
+
+.container {
+    width: 95%;
+}
+
+.nav {
+    position: fixed;
+    z-index: 5
+}
+
+div.nav1 {
+    /*position: fixed;*/
+    z-index: 5
+}
+
+nav {
+    background: blue;
+}
+
+header {
+    background-image: url(../Okirika1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.overlay .banner {
+    width: 80%;
+    margin: 10rem auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.83);
+    /*border: 1px solid crimson;*/
+    border-radius: 2rem;
+    border: 15px double yellow;
+    /*border-spacing: 1rem, 1rem;*/
+}
+
+.banner-text h2 {
+    font-size: 3.4rem;
+}
+
+.second {
+    width: 100vw;
+    min-height: 65vh;
+    background-color: ghostwhite;
+    padding: 2rem;
+}
+
+.second .how-to div {
+    padding: 1rem;
+}
+
+.second .how-to div article {
+    height: 50vh;
+}
+
+.second article h4:first-child {
+    background: black;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+}
+
+.second article p {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #fff;
+    margin: .5rem
+}
+
+.ht {
+    text-shadow: 0.3rem 0.3rem 0.2rem rgba(146, 143, 110, 0.68), -0.3rem 0.3rem 3rem rgba(165, 128, 128, 0.81);
+}
+
+article ol {
+    list-style-type: square;
+}
+
+article ol li {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.parallax-container {
+    height: 25rem;
+}
+
+.png-img {
+    width: 100%;
+}
+
+.third,
+.fourth {
+    margin-bottom: 1rem;
+    background-color: rgba(16, 20, 150, 0.95);
+}
+
+.third h2,
+.fourth h2 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .1rem darkslategrey
+}
+
+.third .col,
+.fourth .col {
+    padding: 3rem
+}
+
+.naver {
+    position: relative
+}
+
+.revp {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    top: 3rem;
+    z-index: 7;
+}
+
+.revp li {
+    padding: 1rem;
+    list-style: none;
+}
